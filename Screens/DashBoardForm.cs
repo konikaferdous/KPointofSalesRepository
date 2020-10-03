@@ -24,7 +24,8 @@ namespace KPointofSales.Screens
 
         private void metroButton10_Click(object sender, EventArgs e)
         {
-
+            ProductsBRecordForm prd = new ProductsBRecordForm();
+            prd.Show();
         }
 
         private void metroButton9_Click(object sender, EventArgs e)
@@ -41,6 +42,11 @@ namespace KPointofSales.Screens
         private void metroButton2_Click(object sender, EventArgs e)
         {
             ProductsRecordForm prd = new ProductsRecordForm();
+            prd.Show();
+        }
+        private void metroButton3_Click(object sender, EventArgs e)
+        {
+            ProductsBRecordForm prd = new ProductsBRecordForm();
             prd.Show();
         }
     }

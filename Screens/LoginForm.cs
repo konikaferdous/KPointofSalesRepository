@@ -20,6 +20,13 @@ namespace KPointofSales
             InitializeComponent();
         }
 
+        public DefineForm()
+        {
+            MessageBox.Show("Define new things!", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+               
+                return false;
+        }
+
         private void Form1_Load(object sender, EventArgs e)
         {
 
