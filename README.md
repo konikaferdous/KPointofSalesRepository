@@ -10,3 +10,4 @@ Required software for this project
 * Visual Studio 2019
 * SQL Server
 * Git version Control
+* SDK installed
